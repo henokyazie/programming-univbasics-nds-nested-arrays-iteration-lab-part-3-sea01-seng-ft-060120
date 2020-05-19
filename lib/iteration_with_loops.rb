@@ -7,6 +7,9 @@ def join_nested_strings(src)
     element_index = ""
     while element_index < mixed_data[row_index].count do 
       single_value = ""
+    end 
+    row_index += 1 
   
 end
+single_value
 
