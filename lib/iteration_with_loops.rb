@@ -3,9 +3,9 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   row_index = 0 
   single_value = ""
-  while row_index < mixed_data.count do 
+  while row_index < src.count do 
     element_index = ""
-    while element_index < mixed_data[row_index].count do 
+    while element_index < src[row_index].count do 
       single_value = ""
     end 
     row_index += 1 
